@@ -1,0 +1,20 @@
+#return
+{
+    position:fixed;
+    bottom:0%;
+    left:0%;
+
+
+}
+h2{
+    text-align:center;
+}
+.big
+{
+    font-weight:bold;
+}
+#moreinfotable
+{
+    margin:0 auto;
+    width:50%;
+}
