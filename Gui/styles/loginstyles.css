@@ -1,8 +1,6 @@
-*{
-    color:white;
-}
+
 .bg{
-    background: url('../images/matrix.jpg')  no-repeat center center fixed;
+
     width:100%;
     height: 100vh;
     -webkit-background-size: cover;
