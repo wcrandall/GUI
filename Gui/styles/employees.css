@@ -1,3 +1,4 @@
+
 body{
 background-color: #D8D8D8;
 background-color: rgb(216,216,216);
@@ -65,44 +66,38 @@ background-color: rgb(216,216,216);
     margin-top: 10vh;
 }
 
-#first-button {
-  display: block;
-  position:absolute;
+#first-button { 
+  display: relative;
+  float: left;
   padding:4%;
-  margin-left: 50%;
-    margin-right: 50%;
+  margin-left: 5%;
 }
 
 #second-button {
-  display: block;
   margin-top: 25vh;
-    position:absolute;
+  position:absolute;
   padding:4%;
-    margin-left: 50%;
-    margin-right: 50%;
-
+  transform: translate(-90%, -30%);
 }
 
 #third-button {
-  display: block;
   margin-top: 50vh;
   position:absolute;
   padding:4%;
-    margin-left: 50%;
-    margin-right: 50%;
-
+    transform: translate(-105%, -30%);
 }
 
 #fourth-button {
-  display: block;
-  position:absolute;
-
+  position: absolute;
+  float: right;
   padding:4%;
+  margin-right: 5%;
+  transform: translate(90%)
 
 }
 
 #fifth-button {
-  display: block;
+  transform: translate(175%, 190%);
   position:absolute;
   padding:4%;
 
@@ -110,4 +105,5 @@ background-color: rgb(216,216,216);
 
 h1{
     text-align: center;
+    font-size: 200%
 }
