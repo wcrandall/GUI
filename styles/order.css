@@ -17,12 +17,12 @@ h1{
     left:0%;
 }
 
-#scrollmenu {
+div.scrollmenu {
     overflow: auto;
     white-space: nowrap;
 }
 
-#scrollmenu a {
+div.scrollmenu a {
     display: inline-block;
     text-align: center;
     padding: 14px;
