@@ -1,10 +1,11 @@
 
 $(document).ready(function() {
     $("button").click(function(){
-        var name = $("#product-name").val();
+        var itemID = $("#itemID").val();
         var amount = $("#number").val();
-        if(name!="" && amount!="") {
-            confirm("Are you sure you want to add " + amount + " of " + name + " to order?");
+        var orderID = $("#orderID").val();
+        if(itemID!="" && amount!="" && orderID!="") {
+            confirm("Are you sure you want to add " + amount + " of item " + itemID + " to order" + orderID "?");
         }
     });
 });
