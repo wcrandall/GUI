@@ -16,7 +16,6 @@
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
     <script src="script/addToOrder.js"></script>
-    <script src="script/user.js">userIs(employee);</script>
 
     <link rel="stylesheet" href="styles/order.css">
     <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
