@@ -63,40 +63,8 @@ body{
     margin-top: 10vh;
 }
 
-#first-button { 
-  display: relative;
-  float: left;
-  padding:4%;
-  margin-left: 5%;
-}
-
-#second-button {
-  margin-top: 25vh;
-  position:absolute;
-  padding:4%;
-  transform: translate(-90%, -30%);
-}
-
-#third-button {
-  margin-top: 50vh;
-  position:absolute;
-  padding:4%;
-    transform: translate(-105%, -30%);
-}
-
-#fourth-button {
-  position: absolute;
-  padding:4%;
-  margin-right: 5%;
-  transform: translate(90%)
-
-}
-
-#fifth-button {
-  transform: translate(175%, 190%);
-  position:absolute;
-  padding:4%;
-
+.btn-group button {
+  display: block;
 }
 
 h1{
