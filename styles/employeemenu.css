@@ -6,11 +6,13 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color:white;
   
 }
 
 .button {
+    width: 200%;
+    margin-bottom: 3vh;
+    text-align: center;
     border: 1px solid #0a3c59;
     background: #3e779d;
     background: -webkit-gradient(linear, left top, left bottom, from(#65a9d7), to(#3e779d));
@@ -62,43 +64,9 @@ body{
 
 #buttonhold {
     margin-top: 10vh;
+  margin-buttom: 5vh;
 }
 
-#first-button { 
-  display: relative;
-  float: left;
-  padding:4%;
-  margin-left: 5%;
-}
-
-#second-button {
-  margin-top: 25vh;
-  position:absolute;
-  padding:4%;
-  transform: translate(-90%, -30%);
-}
-
-#third-button {
-  margin-top: 50vh;
-  position:absolute;
-  padding:4%;
-    transform: translate(-105%, -30%);
-}
-
-#fourth-button {
-  position: absolute;
-  padding:4%;
-  margin-right: 5%;
-  transform: translate(90%)
-
-}
-
-#fifth-button {
-  transform: translate(175%, 190%);
-  position:absolute;
-  padding:4%;
-
-}
 
 h1{
     text-align: center;
