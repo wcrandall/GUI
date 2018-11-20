@@ -9,7 +9,7 @@ $(document).ready(function(){
         }
         else
         {
-            $("form").attr('action','employeeMenu.html');
+            $("form").attr('action','employeemenu.html');
         }
     });
 });
