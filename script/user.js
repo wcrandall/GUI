@@ -2,8 +2,12 @@ function userIs(user) {
     var user = user;
 }
 
-function whoIsUser() {
-    if user == 'employee' {
-        employeeMenu.html
-    }
-}
+
+$(document).ready(function() {
+    $("button").click(function(){
+        if user == 'employee' {
+            employeeMenu.html
+        }
+    });
+});
+
