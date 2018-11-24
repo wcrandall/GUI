@@ -7,7 +7,8 @@ $(document).ready(function() {
     $("button").click(function(){
         if user == 'employee' {
             employeeMenu.html
-        }
+        } else {
+            maingui.html
     });
 });
 
